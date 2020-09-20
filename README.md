@@ -10,7 +10,7 @@
 [firefox]: https://addons.mozilla.org/en-US/firefox/addon/styl-us/
 [opera]: https://addons.opera.com/en-gb/extensions/details/stylus/
 
-[install]: https://raw.githubusercontent.com/darkerweb/ryver/master/main.user.css
+[install]: https://cdn.jsdelivr.net/gh/darkerweb/ryver@latest/main.user.css
 
 ## Contributors ✨
 
