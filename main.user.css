@@ -5,7 +5,7 @@
 @description    Darker theme for Ryver
 @homepageURL    https://github.com/darkerweb/ryver
 @supportURL     https://github.com/darkerweb/ryver/issues
-@updateURL      https://raw.githubusercontent.com/darkerweb/ryver/master/main.user.css
+@updateURL      https://cdn.jsdelivr.net/gh/darkerweb/ryver@latest/main.user.css
 @license        MIT
 ==/UserStyle== */
 @-moz-document regexp(".+\\.ryver\\.com.*") {
