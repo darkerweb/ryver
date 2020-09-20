@@ -1,0 +1,27 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "bsoyka",
+      "name": "Ben Soyka",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/37779854?v=4",
+      "profile": "http://bsoyka.me",
+      "contributions": [
+        "code",
+        "maintenance",
+        "doc",
+        "bug"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "ryver",
+  "projectOwner": "darkerweb",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
