@@ -19,6 +19,7 @@
     }
   ],
   "contributorsPerLine": 7,
+  "badgeTemplate": "# Darker Ryver [![All Contributors](https://img.shields.io/badge/all_contributors-<%= contributors.length %>-orange.svg)](#contributors-)",
   "projectName": "ryver",
   "projectOwner": "darkerweb",
   "repoType": "github",
