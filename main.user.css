@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Darker Ryver
 @namespace      github.com/darkerweb
-@version        1.1.0
+@version        1.1.1
 @description    Darker theme for Ryver
 @homepageURL    https://github.com/darkerweb/ryver
 @supportURL     https://github.com/darkerweb/ryver/issues
@@ -166,7 +166,9 @@
     .view-header__actions .button,
     .row,
     .ui-sortable *,
-    .post-item__details:hover .post-item__body {
+    .post-item__details:hover .post-item__body,
+    .markdown code,
+    .markdown pre {
         background: none !important;
     }
 
@@ -178,12 +180,12 @@
     [data-presence-for] {
         border-color: #282a36;
     }
-    
+
     .my-settings-dialog__body *:not(input) {
         background: #282a36 !important;
         color: white !important;
     }
-   
+
     mark {
         background: #ffb86c;
     }
