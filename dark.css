@@ -8,7 +8,7 @@
 @updateURL      https://cdn.jsdelivr.net/gh/darkerweb/ryver@latest/dark.css
 @license        MIT
 ==/UserStyle== */
-.theme-novus-dark .detail, .theme-novus-dark .detail, .theme-novus-dark .chat-common, .theme-novus-dark .chat-common .chat-common__last-seen-label, body:not(.is-phone).theme-novus-dark .view-header, .theme-novus-dark .chat-common .chat-common__message-container, .scene-space-tab-button:hover, .view:nth-child(3) > div > div, .view:nth-child(3) > div > div > div, .post-list .scroll-container, .view > div, .view-container.pane__container, .notification-list__item-body, .notification-list__item-container, div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div, .scene-space__footer:hover {
+.theme-novus-dark .detail, .theme-novus-dark .chat-common, .theme-novus-dark .chat-common .chat-common__last-seen-label, body:not(.is-phone).theme-novus-dark .view-header, .theme-novus-dark .chat-common .chat-common__message-container, .scene-space-tab-button:hover, .view:nth-child(3) > div > div, .view:nth-child(3) > div > div > div, .post-list .scroll-container, .view > div, .view-container.pane__container, .notification-list__item-body, .notification-list__item-container, div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div, .scene-space__footer:hover {
     background-color:  #121212!important;
 }
 /*black*/
@@ -16,7 +16,7 @@
     background: black;
 }
 /*black but important*/
-body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag:after, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag:hover, .view:nth-child(3) > div > div > div > div > div > div > div:nth-child(1) > button > span, .is-loading{
+body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag:after, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag:hover, .view:nth-child(3) > div > div > div > div > div > div > div:nth-child(1) > button > span, .is-loading, .view-body{
     background-color: black!important;
 }
 .chat-message__item-action-container, .chat-message__item-retry-container{
@@ -24,9 +24,6 @@ body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag, body:not(.is-phone).t
 }
 .theme-novus-dark .chat-message .chat-message__from:hover~.chat-message__events .chat-message__item:first-of-type, .theme-novus-dark .chat-message .chat-message__item--actions-expanded, .theme-novus-dark .chat-message .chat-message__item:hover, .theme-novus-dark .entity-list__item, .post-item__container, .theme-novus-dark .post-item .post-item__comments-container, .view:nth-child(3) > div > div > div > div > div > div:nth-child(2) > div{
     background-color: #151515;
-}
-.button.is-primary {
-    font-weight: 600;
 }
 .chat-editor__message .markdown-editor__input, .chat-editor__emoji, .chat-editor__file .files-field__externals{
     border:0px;
@@ -63,7 +60,7 @@ div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > d
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
-div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div > div:nth-child(3) > div > button > div > span{
+div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div > div:nth-child(3) > div > button > div > span, .button.is-primary {
     font-weight: 600!important;
 }
 div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div > div:nth-child(4) > div > input{
@@ -81,8 +78,21 @@ div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > d
     right: -56px;
     bottom: 4px;
 }
-.theme-novus--dark-nav .scene-space-tab-button--selected, .theme-novus-dark .scene-space-tab-button--selected{
-    font-weight:900;
+.bootstrap__logo::before {
+    content: "pro-tip: make sure Ryver's dark mode is enabled for the best experience";
+    color: white;
+    font-weight: 900;
+    font-size: 12px;
+    font-style: italic;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0%;
+    margin-bottom: -10px;
+    width: max-content;
+}
+.theme-novus--dark-nav .scene-space-tab-button--selected, .theme-novus-dark .scene-space-tab-button--selected, .theme-novus-dark .scene-space-tab-button--selected .scene-space-tab-button__title{
+    font-weight:600!important;
 }
 .team-teammates__item > div > div > div {
     border:none!important;
