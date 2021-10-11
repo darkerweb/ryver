@@ -8,7 +8,7 @@
 @updateURL      https://cdn.jsdelivr.net/gh/darkerweb/ryver@latest/dark.css
 @license        MIT
 ==/UserStyle== */
-.theme-novus-dark .detail, .theme-novus-dark .detail, .theme-novus-dark .chat-common, .theme-novus-dark .chat-common .chat-common__last-seen-label, body:not(.is-phone).theme-novus-dark .view-header, .theme-novus-dark .chat-common .chat-common__message-container, .scene-space-tab-button:hover, .view:nth-child(3) > div > div, .view:nth-child(3) > div > div > div, .post-list .scroll-container, .view > div, .view-container.pane__container, .notification-list__item-body, .notification-list__item-container {
+.theme-novus-dark .detail, .theme-novus-dark .detail, .theme-novus-dark .chat-common, .theme-novus-dark .chat-common .chat-common__last-seen-label, body:not(.is-phone).theme-novus-dark .view-header, .theme-novus-dark .chat-common .chat-common__message-container, .scene-space-tab-button:hover, .view:nth-child(3) > div > div, .view:nth-child(3) > div > div > div, .post-list .scroll-container, .view > div, .view-container.pane__container, .notification-list__item-body, .notification-list__item-container, div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div, .scene-space__footer:hover {
     background-color:  #121212!important;
 }
 /*black*/
@@ -17,7 +17,7 @@
 }
 /*black but important*/
 body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag:after, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag:hover, .view:nth-child(3) > div > div > div > div > div > div > div:nth-child(1) > button > span, .is-loading{
-    background: black!important;
+    background-color: black!important;
 }
 .chat-message__item-action-container, .chat-message__item-retry-container{
     border:none;
@@ -52,7 +52,9 @@ body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag, body:not(.is-phone).t
     font-family:Whitney,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 15px;
 }
-div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div{background-color: transparent!important;}
+div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div{
+    border-radius:20px!important;
+}
 div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div{
     border-radius: 20px!important;
     border: 1px solid transparent;
