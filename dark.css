@@ -1,3 +1,13 @@
+/* ==UserStyle==
+@name           Darker Ryver
+@namespace      github.com/darkerweb
+@version        1.1.1
+@description    Darker theme for Ryver
+@homepageURL    https://github.com/darkerweb/ryver
+@supportURL     https://github.com/darkerweb/ryver/issues
+@updateURL      https://cdn.jsdelivr.net/gh/darkerweb/ryver@latest/main.user.css
+@license        MIT
+==/UserStyle== */
 .theme-novus-dark .detail, .theme-novus-dark .detail, .theme-novus-dark .chat-common, .theme-novus-dark .chat-common .chat-common__last-seen-label, body:not(.is-phone).theme-novus-dark .view-header, .theme-novus-dark .chat-common .chat-common__message-container, .theme-novus--dark-nav .scene-space-tab-button--selected, .theme-novus-dark .scene-space-tab-button--selected, .scene-space-tab-button:hover, .view:nth-child(3) > div > div, .view:nth-child(3) > div > div > div, .post-list .scroll-container {
     background-color:  #2f3136!important;
 }
