@@ -1,24 +1,29 @@
 /* ==UserStyle==
 @name           Darker Ryver
 @namespace      github.com/darkerweb
-@version        1.1.1
+@version        1.2
 @description    Darker theme for Ryver
 @homepageURL    https://github.com/darkerweb/ryver
 @supportURL     https://github.com/darkerweb/ryver/issues
 @updateURL      https://cdn.jsdelivr.net/gh/darkerweb/ryver@latest/dark.css
 @license        MIT
 ==/UserStyle== */
-.theme-novus-dark .detail, .theme-novus-dark .detail, .theme-novus-dark .chat-common, .theme-novus-dark .chat-common .chat-common__last-seen-label, body:not(.is-phone).theme-novus-dark .view-header, .theme-novus-dark .chat-common .chat-common__message-container, .theme-novus--dark-nav .scene-space-tab-button--selected, .theme-novus-dark .scene-space-tab-button--selected, .scene-space-tab-button:hover, .view:nth-child(3) > div > div, .view:nth-child(3) > div > div > div, .post-list .scroll-container {
-    background-color:  #2f3136!important;
+.theme-novus-dark .detail, .theme-novus-dark .detail, .theme-novus-dark .chat-common, .theme-novus-dark .chat-common .chat-common__last-seen-label, body:not(.is-phone).theme-novus-dark .view-header, .theme-novus-dark .chat-common .chat-common__message-container, .scene-space-tab-button:hover, .view:nth-child(3) > div > div, .view:nth-child(3) > div > div > div, .post-list .scroll-container {
+    background-color:  #121212!important;
 }
-.theme-novus--dark-nav .scene-space__footer, .theme-novus-dark .scene-space__footer, .theme-novus-dark .scene-space-tab-button, .theme-novus .scene-space-tab-button, .scene-space__buttons, .theme-novus-dark .markdown-editor .markdown-editor__input, .theme-novus-dark .chat-editor__emoji, .theme-novus-dark .chat-editor__file .files-field__added, .theme-novus-dark .chat-editor__file .files-field__externals, body:not(.is-phone).theme-novus-dark .view-header, body:not(.is-phone).theme-novus-dark .view-toolbar, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag:after, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag:hover, .view-body, .view:nth-child(3) > div > div > div > div > div, .view.teammates-list > div > div, div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div > div:nth-child(2), div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div > div:nth-child(3), div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div > div:nth-child(4), div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div > div:nth-child(1)  {
-    background: #202225;
+/*black*/
+.theme-novus--dark-nav .scene-space__footer, .theme-novus-dark .scene-space__footer, .theme-novus-dark .scene-space-tab-button, .theme-novus .scene-space-tab-button, .scene-space__buttons, .theme-novus-dark .markdown-editor .markdown-editor__input, .theme-novus-dark .chat-editor__emoji, .theme-novus-dark .chat-editor__file .files-field__added, .theme-novus-dark .chat-editor__file .files-field__externals, body:not(.is-phone).theme-novus-dark .view-header, body:not(.is-phone).theme-novus-dark .view-toolbar, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag:after, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag:hover, .view-body, .view:nth-child(3) > div > div > div > div > div, .view.teammates-list > div > div, div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div > div:nth-child(2), div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div > div:nth-child(3), div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div > div:nth-child(4), div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div > div:nth-child(1), .theme-novus--dark-nav .scene-space-tab-button--selected, .theme-novus-dark .scene-space-tab-button--selected{
+    background: black;
+}
+/*black but important*/
+body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag:after, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag:hover{
+    background: black!important;
 }
 .chat-message__item-action-container, .chat-message__item-retry-container{
     border:none;
 }
 .theme-novus-dark .chat-message .chat-message__from:hover~.chat-message__events .chat-message__item:first-of-type, .theme-novus-dark .chat-message .chat-message__item--actions-expanded, .theme-novus-dark .chat-message .chat-message__item:hover, .theme-novus-dark .entity-list__item, .post-item__container, .theme-novus-dark .post-item .post-item__comments-container, .view:nth-child(3) > div > div > div > div > div > div:nth-child(2) > div{
-    background-color: #2C2F33;
+    background-color: #151515;
 }
 .button.is-primary {
     font-weight: 600;
@@ -35,12 +40,12 @@
     color: white;
 }
 .theme-novus-dark ::-webkit-scrollbar-thumb, .theme-novus-dark .button.is-primary, div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div > div:nth-child(3) > div > button{
-    background-color: #404EED;
-    border-color: #404EED;
+    background-color: #bb86fc;
+    border-color: #bb86fc;
 }
 .theme-novus-dark ::-webkit-scrollbar-thumb, .theme-novus-dark .button.is-primary:hover, div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div > div:nth-child(3) > div > button:hover{
-    background-color: #5865F2;
-    border-color: #5865F2;
+    background-color: #bb86fc;
+    border-color: #bb86fc;
 }
 .markdown{
     text-rendering: optimizeLegibility;
@@ -74,4 +79,7 @@ div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > d
     position: absolute;
     right: -56px;
     bottom: 4px;
+}
+.theme-novus--dark-nav .scene-space-tab-button--selected, .theme-novus-dark .scene-space-tab-button--selected{
+    font-weight:900;
 }
