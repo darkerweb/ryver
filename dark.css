@@ -83,3 +83,9 @@ div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > d
 .theme-novus--dark-nav .scene-space-tab-button--selected, .theme-novus-dark .scene-space-tab-button--selected{
     font-weight:900;
 }
+.team-teammates__item > div > div > div {
+    border:none!important;
+    height: 14px;
+    position: absolute;
+    right: -4px!important;
+}
