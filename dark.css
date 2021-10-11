@@ -1,4 +1,4 @@
-.theme-novus-dark .detail, .theme-novus-dark .detail, .theme-novus-dark .chat-common, .theme-novus-dark .chat-common .chat-common__last-seen-label, body:not(.is-phone).theme-novus-dark .view-header, .theme-novus-dark .chat-common .chat-common__message-container, .theme-novus--dark-nav .scene-space-tab-button--selected, .theme-novus-dark .scene-space-tab-button--selected, .scene-space-tab-button:hover{
+.theme-novus-dark .detail, .theme-novus-dark .detail, .theme-novus-dark .chat-common, .theme-novus-dark .chat-common .chat-common__last-seen-label, body:not(.is-phone).theme-novus-dark .view-header, .theme-novus-dark .chat-common .chat-common__message-container, .theme-novus--dark-nav .scene-space-tab-button--selected, .theme-novus-dark .scene-space-tab-button--selected, .scene-space-tab-button:hover, .view:nth-child(3) > div > div > div{
     background-color:  #2f3136!important;
 }
 .theme-novus--dark-nav .scene-space__footer, .theme-novus-dark .scene-space__footer, .theme-novus-dark .scene-space-tab-button, .theme-novus .scene-space-tab-button, .scene-space__buttons, .theme-novus-dark .markdown-editor .markdown-editor__input, .theme-novus-dark .chat-editor__emoji, .theme-novus-dark .chat-editor__file .files-field__added, .theme-novus-dark .chat-editor__file .files-field__externals, body:not(.is-phone).theme-novus-dark .view-header, body:not(.is-phone).theme-novus-dark .view-toolbar, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag:after, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag:hover, .view-body, .theme-novus-dark ._1S5a9rg_INUpNONKXD5wYT  {
@@ -7,7 +7,7 @@
 .chat-message__item-action-container, .chat-message__item-retry-container{
     border:none;
 }
-.theme-novus-dark .chat-message .chat-message__from:hover~.chat-message__events .chat-message__item:first-of-type, .theme-novus-dark .chat-message .chat-message__item--actions-expanded, .theme-novus-dark .chat-message .chat-message__item:hover{
+.theme-novus-dark .chat-message .chat-message__from:hover~.chat-message__events .chat-message__item:first-of-type, .theme-novus-dark .chat-message .chat-message__item--actions-expanded, .theme-novus-dark .chat-message .chat-message__item:hover, .theme-novus-dark .entity-list__item, .post-item__container, .theme-novus-dark .post-item .post-item__comments-container{
     background-color: #2C2F33;
 }
 .button.is-primary {
