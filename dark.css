@@ -1,0 +1,42 @@
+.theme-novus-dark .detail, .theme-novus-dark .detail, .theme-novus-dark .chat-common, .theme-novus-dark .chat-common .chat-common__last-seen-label, body:not(.is-phone).theme-novus-dark .view-header, .theme-novus-dark .chat-common .chat-common__message-container, .theme-novus--dark-nav .scene-space-tab-button--selected, .theme-novus-dark .scene-space-tab-button--selected, .scene-space-tab-button:hover{
+    background-color:  #2f3136!important;
+}
+.theme-novus--dark-nav .scene-space__footer, .theme-novus-dark .scene-space__footer, .theme-novus-dark .scene-space-tab-button, .theme-novus .scene-space-tab-button, .scene-space__buttons, .theme-novus-dark .markdown-editor .markdown-editor__input, .theme-novus-dark .chat-editor__emoji, .theme-novus-dark .chat-editor__file .files-field__added, .theme-novus-dark .chat-editor__file .files-field__externals, body:not(.is-phone).theme-novus-dark .view-header, body:not(.is-phone).theme-novus-dark .view-toolbar, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag:after, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag:hover, .view-body, .theme-novus-dark ._1S5a9rg_INUpNONKXD5wYT  {
+    background: #202225;
+}
+.chat-message__item-action-container, .chat-message__item-retry-container{
+    border:none;
+}
+.theme-novus-dark .chat-message .chat-message__from:hover~.chat-message__events .chat-message__item:first-of-type, .theme-novus-dark .chat-message .chat-message__item--actions-expanded, .theme-novus-dark .chat-message .chat-message__item:hover{
+    background-color: #2C2F33;
+}
+.button.is-primary {
+    font-weight: 600;
+}
+.chat-editor__message .markdown-editor__input, .chat-editor__emoji, .chat-editor__file .files-field__externals{
+    border:0px;
+    height: 36px;
+}
+.is-link-alt:hover, .is-link-reverse:hover, .is-link:hover{
+    text-decoration: none;
+}
+.forum-tabbed__detail-content-name{
+    font-weight: 700!important;
+    font-size: 25px!important;
+    font-family: Ginto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-rendering: optimizeLegibility;
+    color: white;
+}
+.theme-novus-dark ::-webkit-scrollbar-thumb, .theme-novus-dark .button.is-primary{
+    background-color: #404EED;
+    border-color: #404EED;
+}
+.theme-novus-dark ::-webkit-scrollbar-thumb, .theme-novus-dark .button.is-primary:hover{
+    background-color: #5865F2;
+    border-color: #5865F2;
+}
+.markdown{
+    text-rendering: optimizeLegibility;
+    font-family:Whitney,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 15px;
+}
