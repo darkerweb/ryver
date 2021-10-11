@@ -17,9 +17,6 @@
     border:0px;
     height: 36px;
 }
-.is-link-alt:hover, .is-link-reverse:hover, .is-link:hover{
-    text-decoration: none;
-}
 .forum-tabbed__detail-content-name{
     font-weight: 700!important;
     font-size: 25px!important;
