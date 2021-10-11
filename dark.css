@@ -1,7 +1,7 @@
 .theme-novus-dark .detail, .theme-novus-dark .detail, .theme-novus-dark .chat-common, .theme-novus-dark .chat-common .chat-common__last-seen-label, body:not(.is-phone).theme-novus-dark .view-header, .theme-novus-dark .chat-common .chat-common__message-container, .theme-novus--dark-nav .scene-space-tab-button--selected, .theme-novus-dark .scene-space-tab-button--selected, .scene-space-tab-button:hover, .view:nth-child(3) > div > div, .view:nth-child(3) > div > div > div, .post-list .scroll-container {
     background-color:  #2f3136!important;
 }
-.theme-novus--dark-nav .scene-space__footer, .theme-novus-dark .scene-space__footer, .theme-novus-dark .scene-space-tab-button, .theme-novus .scene-space-tab-button, .scene-space__buttons, .theme-novus-dark .markdown-editor .markdown-editor__input, .theme-novus-dark .chat-editor__emoji, .theme-novus-dark .chat-editor__file .files-field__added, .theme-novus-dark .chat-editor__file .files-field__externals, body:not(.is-phone).theme-novus-dark .view-header, body:not(.is-phone).theme-novus-dark .view-toolbar, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag:after, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag:hover, .view-body, .view:nth-child(3) > div > div > div > div > div, .view.teammates-list > div > div  {
+.theme-novus--dark-nav .scene-space__footer, .theme-novus-dark .scene-space__footer, .theme-novus-dark .scene-space-tab-button, .theme-novus .scene-space-tab-button, .scene-space__buttons, .theme-novus-dark .markdown-editor .markdown-editor__input, .theme-novus-dark .chat-editor__emoji, .theme-novus-dark .chat-editor__file .files-field__added, .theme-novus-dark .chat-editor__file .files-field__externals, body:not(.is-phone).theme-novus-dark .view-header, body:not(.is-phone).theme-novus-dark .view-toolbar, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag:after, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag:hover, .view-body, .view:nth-child(3) > div > div > div > div > div, .view.teammates-list > div > div, div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div > div:nth-child(2), div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div > div:nth-child(3), div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div > div:nth-child(4), div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div > div:nth-child(1)  {
     background: #202225;
 }
 .chat-message__item-action-container, .chat-message__item-retry-container{
@@ -24,11 +24,11 @@
     text-rendering: optimizeLegibility;
     color: white;
 }
-.theme-novus-dark ::-webkit-scrollbar-thumb, .theme-novus-dark .button.is-primary{
+.theme-novus-dark ::-webkit-scrollbar-thumb, .theme-novus-dark .button.is-primary, div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div > div:nth-child(3) > div > button{
     background-color: #404EED;
     border-color: #404EED;
 }
-.theme-novus-dark ::-webkit-scrollbar-thumb, .theme-novus-dark .button.is-primary:hover{
+.theme-novus-dark ::-webkit-scrollbar-thumb, .theme-novus-dark .button.is-primary:hover, div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div > div:nth-child(3) > div > button:hover{
     background-color: #5865F2;
     border-color: #5865F2;
 }
@@ -36,4 +36,32 @@
     text-rendering: optimizeLegibility;
     font-family:Whitney,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 15px;
+}
+div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div{background-color: transparent!important;}
+div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div{
+    border-radius: 20px!important;
+    border: 1px solid transparent;
+}
+div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div > div:nth-child(1){
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div > div:nth-child(3) > div > button > div > span{
+    font-weight: 600!important;
+}
+div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div > div:nth-child(4) > div > input{
+    border:none;
+    border-radius:20px;
+    padding-left:15px!important;
+}
+.is-loading{background: black!important;}
+.bootstrap__logo::after {
+    content: "DARK";
+    display: block;
+    color: white;
+    font-weight: 900;
+    font-size: 23px;
+    position: absolute;
+    right: -56px;
+    bottom: 4px;
 }
