@@ -11,15 +11,16 @@
 *{
     --accent: #eb6123;
 }
-.theme-novus-dark .detail, .theme-novus-dark .chat-common, .theme-novus-dark .chat-common .chat-common__last-seen-label, body:not(.is-phone).theme-novus-dark .view-header, .theme-novus-dark .chat-common .chat-common__message-container, .scene-space-tab-button:hover, .view:nth-child(3) > div > div, .view:nth-child(3) > div > div > div, .post-list .scroll-container, .view > div, .view-container.pane__container, .notification-list__item-body, .notification-list__item-container, div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div, .scene-space__footer:hover, .theme-novus--dark-nav .scene-space-tab-button__presence, .theme-novus-dark .scene-space-tab-button__presence {
+.theme-novus-dark .detail, .theme-novus-dark .chat-common, .theme-novus-dark .chat-common .chat-common__last-seen-label, body:not(.is-phone).theme-novus-dark .view-header, .theme-novus-dark .chat-common .chat-common__message-container, .scene-space-tab-button:hover, div[id^="ryver_view_task"] > div > div, .post-list .scroll-container, .view > div, .view-container.pane__container, .notification-list__item-body, .notification-list__item-container, div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div, .scene-space__footer:hover, .theme-novus--dark-nav .scene-space-tab-button__presence, .theme-novus-dark .scene-space-tab-button__presence, div[id^="ryver_view_task"]>div>div>div>div {
     background-color:  #121212!important;
 }
 /*black*/
 .theme-novus--dark-nav .scene-space__footer, .theme-novus-dark .scene-space__footer, .theme-novus-dark .scene-space-tab-button, .theme-novus .scene-space-tab-button, .scene-space__buttons, .theme-novus-dark .markdown-editor .markdown-editor__input, .theme-novus-dark .chat-editor__emoji, .theme-novus-dark .chat-editor__file .files-field__added, .theme-novus-dark .chat-editor__file .files-field__externals, body:not(.is-phone).theme-novus-dark .view-header, body:not(.is-phone).theme-novus-dark .view-toolbar, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag:after, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag:hover, .view-body, .view:nth-child(3) > div > div > div > div > div, .view.teammates-list > div > div, div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div > div:nth-child(2), div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div > div:nth-child(3), div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div > div:nth-child(4), div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div > div:nth-child(1), .theme-novus--dark-nav .scene-space-tab-button--selected, .theme-novus-dark .scene-space-tab-button--selected, .popup.emoji__popup.is-active{
     background: black;
 }
+
 /*black but important*/
-body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag:after, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag:hover, .view:nth-child(3) > div > div > div > div > div > div > div:nth-child(1) > button > span, .is-loading, .view-body, .popup-emoji__quick, .theme-novus-dark .popup-emoji__scroller{
+body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag:after, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag:hover, .view:nth-child(3) > div > div > div > div > div > div > div:nth-child(1) > button > span, .is-loading, .view-body, .popup-emoji__quick, .theme-novus-dark .popup-emoji__scroller, li.select-item, .select-field.sidebar-select, .tabbed__sidebar-container > div, .view-body>div, .select-field > div > div{
     background-color: black!important;
 }
 .chat-message__item-action-container, .chat-message__item-retry-container{
@@ -82,7 +83,7 @@ div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > d
 .bootstrap__logo::after {
     content: "DARK";
     display: block;
-    color: white;
+    color: var(--accent);
     font-weight: 900;
     font-size: 23px;
     position: absolute;
