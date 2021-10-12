@@ -122,3 +122,6 @@ div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > d
     border-bottom-left-radius: 20px!important;
     border-bottom-right-radius: 20px!important;
 }
+.navigation-action-expand > div > svg {
+    fill: var(--accent)!important;
+}
