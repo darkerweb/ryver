@@ -11,7 +11,7 @@
 *{
     --accent: #eb6123;
 }
-.theme-novus-dark .detail, .theme-novus-dark .chat-common, .theme-novus-dark .chat-common .chat-common__last-seen-label, body:not(.is-phone).theme-novus-dark .view-header, .theme-novus-dark .chat-common .chat-common__message-container, .scene-space-tab-button:hover, div[id^="ryver_view_task"] > div > div, .post-list .scroll-container, .view > div, .view-container.pane__container, .notification-list__item-body, .notification-list__item-container, div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div, .scene-space__footer:hover, .theme-novus--dark-nav .scene-space-tab-button__presence, .theme-novus-dark .scene-space-tab-button__presence, div[id^="ryver_view_task"]>div>div>div>div, li.select-item:hover, .view-body>ul>.row:hover {
+.theme-novus-dark .detail, .theme-novus-dark .chat-common, .theme-novus-dark .chat-common .chat-common__last-seen-label, body:not(.is-phone).theme-novus-dark .view-header, .theme-novus-dark .chat-common .chat-common__message-container, .scene-space-tab-button:hover, div[id^="ryver_view_task"] > div > div, .post-list .scroll-container, .view > div, .view-container.pane__container, .notification-list__item-body, .notification-list__item-container, div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div, .scene-space__footer:hover, .theme-novus--dark-nav .scene-space-tab-button__presence, .theme-novus-dark .scene-space-tab-button__presence, div[id^="ryver_view_task"]>div>div>div>div, li.select-item:hover, .view-body>ul>.row:hover, .preview-image-dialog__body, .preview-image-dialog__actions {
     background-color:  #121212!important;
 }
 /*black*/
@@ -43,9 +43,9 @@ body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag, body:not(.is-phone).t
     text-rendering: optimizeLegibility;
     color: white;
 }
-.theme-novus-dark ::-webkit-scrollbar-thumb, .theme-novus-dark .button.is-primary, div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div > div:nth-child(3) > div > button, .theme-novus-dark ::-webkit-scrollbar-thumb, .theme-novus-dark .button.is-primary:hover, div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div > div:nth-child(3) > div > button:hover, .theme-novus--dark-nav .scene-space-tab-button:hover .scene-space-tab-button__presence, .scene-space__below-fold{
-    background-color: var(--accent);
-    border-color: var(--accent);
+.theme-novus-dark ::-webkit-scrollbar-thumb, .theme-novus-dark .button.is-primary, div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div > div:nth-child(3) > div > button, .theme-novus-dark ::-webkit-scrollbar-thumb, .theme-novus-dark .button.is-primary:hover, div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div > div:nth-child(3) > div > button:hover, .theme-novus--dark-nav .scene-space-tab-button:hover .scene-space-tab-button__presence, .scene-space__below-fold, .preview-image-dialog__actions>div[style = 'color: rgb(176, 190, 197); background-color: rgb(31, 41, 46); transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; box-sizing: border-box; font-family: "Open Sans", sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px; border-radius: 2px; display: inline-block; min-width: 88px;']>button{
+    background-color: var(--accent)!important;
+    border-color: var(--accent)!important;
 }
 .theme-novus--dark-nav .scene-space-tab-button__presence, .theme-novus-dark .scene-space-tab-button__presence{
     border: none!important;
@@ -107,7 +107,7 @@ div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > d
     width: max-content;
 }
 .theme-novus--dark-nav .scene-space-tab-button--selected, .theme-novus-dark .scene-space-tab-button--selected, .theme-novus-dark .scene-space-tab-button--selected .scene-space-tab-button__title{
-    font-weight:600!important;
+    font-weight:900!important;
     color: var(--accent)!important;
 }
 .team-teammates__item > div > div > div {
