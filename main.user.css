@@ -5,7 +5,7 @@
 @description    Darker theme for Ryver
 @homepageURL    https://github.com/darkerweb/ryver
 @supportURL     https://github.com/darkerweb/ryver/issues
-@updateURL      https://cdn.jsdelivr.net/gh/darkerweb/ryver@latest/dark.css
+@updateURL      https://cdn.jsdelivr.net/gh/darkerweb/ryver@latest/main.user.css
 @license        MIT
 ==/UserStyle== */
 .theme-novus-dark .detail, .theme-novus-dark .chat-common, .theme-novus-dark .chat-common .chat-common__last-seen-label, body:not(.is-phone).theme-novus-dark .view-header, .theme-novus-dark .chat-common .chat-common__message-container, .scene-space-tab-button:hover, .view:nth-child(3) > div > div, .view:nth-child(3) > div > div > div, .post-list .scroll-container, .view > div, .view-container.pane__container, .notification-list__item-body, .notification-list__item-container, div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div, .scene-space__footer:hover {
