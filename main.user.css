@@ -5,24 +5,30 @@
 @description    Darker theme for Ryver
 @homepageURL    https://github.com/darkerweb/ryver
 @supportURL     https://github.com/darkerweb/ryver/issues
-@updateURL      https://cdn.jsdelivr.net/gh/darkerweb/ryver@latest/main.user.css
+@updateURL      https://cdn.jsdelivr.net/gh/darkerweb/ryver@latest/dark.css
 @license        MIT
 ==/UserStyle== */
+*{
+    --accent: hotpink;
+}
 .theme-novus-dark .detail, .theme-novus-dark .chat-common, .theme-novus-dark .chat-common .chat-common__last-seen-label, body:not(.is-phone).theme-novus-dark .view-header, .theme-novus-dark .chat-common .chat-common__message-container, .scene-space-tab-button:hover, .view:nth-child(3) > div > div, .view:nth-child(3) > div > div > div, .post-list .scroll-container, .view > div, .view-container.pane__container, .notification-list__item-body, .notification-list__item-container, div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div, .scene-space__footer:hover {
     background-color:  #121212!important;
 }
 /*black*/
-.theme-novus--dark-nav .scene-space__footer, .theme-novus-dark .scene-space__footer, .theme-novus-dark .scene-space-tab-button, .theme-novus .scene-space-tab-button, .scene-space__buttons, .theme-novus-dark .markdown-editor .markdown-editor__input, .theme-novus-dark .chat-editor__emoji, .theme-novus-dark .chat-editor__file .files-field__added, .theme-novus-dark .chat-editor__file .files-field__externals, body:not(.is-phone).theme-novus-dark .view-header, body:not(.is-phone).theme-novus-dark .view-toolbar, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag:after, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag:hover, .view-body, .view:nth-child(3) > div > div > div > div > div, .view.teammates-list > div > div, div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div > div:nth-child(2), div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div > div:nth-child(3), div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div > div:nth-child(4), div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div > div:nth-child(1), .theme-novus--dark-nav .scene-space-tab-button--selected, .theme-novus-dark .scene-space-tab-button--selected{
+.theme-novus--dark-nav .scene-space__footer, .theme-novus-dark .scene-space__footer, .theme-novus-dark .scene-space-tab-button, .theme-novus .scene-space-tab-button, .scene-space__buttons, .theme-novus-dark .markdown-editor .markdown-editor__input, .theme-novus-dark .chat-editor__emoji, .theme-novus-dark .chat-editor__file .files-field__added, .theme-novus-dark .chat-editor__file .files-field__externals, body:not(.is-phone).theme-novus-dark .view-header, body:not(.is-phone).theme-novus-dark .view-toolbar, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag:after, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag:hover, .view-body, .view:nth-child(3) > div > div > div > div > div, .view.teammates-list > div > div, div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div > div:nth-child(2), div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div > div:nth-child(3), div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div > div:nth-child(4), div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div > div:nth-child(1), .theme-novus--dark-nav .scene-space-tab-button--selected, .theme-novus-dark .scene-space-tab-button--selected, .popup.emoji__popup.is-active{
     background: black;
 }
 /*black but important*/
-body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag:after, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag:hover, .view:nth-child(3) > div > div > div > div > div > div > div:nth-child(1) > button > span, .is-loading, .view-body{
+body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag:after, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag:hover, .view:nth-child(3) > div > div > div > div > div > div > div:nth-child(1) > button > span, .is-loading, .view-body, .popup-emoji__quick, .theme-novus-dark .popup-emoji__scroller{
     background-color: black!important;
 }
 .chat-message__item-action-container, .chat-message__item-retry-container{
     border:none;
 }
-.theme-novus-dark .chat-message .chat-message__from:hover~.chat-message__events .chat-message__item:first-of-type, .theme-novus-dark .chat-message .chat-message__item--actions-expanded, .theme-novus-dark .chat-message .chat-message__item:hover, .theme-novus-dark .entity-list__item, .post-item__container, .theme-novus-dark .post-item .post-item__comments-container, .view:nth-child(3) > div > div > div > div > div > div:nth-child(2) > div{
+.popup.emoji__popup.is-active{
+    border-radius:20px!important;
+}
+.theme-novus-dark .chat-message .chat-message__from:hover~.chat-message__events .chat-message__item:first-of-type, .theme-novus-dark .chat-message .chat-message__item--actions-expanded, .theme-novus-dark .chat-message .chat-message__item:hover, .theme-novus-dark .entity-list__item, .post-item__container, .theme-novus-dark .post-item .post-item__comments-container, .view:nth-child(3) > div > div > div > div > div > div:nth-child(2) > div, .chat-message__item:hover{
     background-color: #151515;
 }
 .chat-editor__message .markdown-editor__input, .chat-editor__emoji, .chat-editor__file .files-field__externals{
@@ -36,13 +42,15 @@ body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag, body:not(.is-phone).t
     text-rendering: optimizeLegibility;
     color: white;
 }
-.theme-novus-dark ::-webkit-scrollbar-thumb, .theme-novus-dark .button.is-primary, div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div > div:nth-child(3) > div > button{
-    background-color: #bb86fc;
-    border-color: #bb86fc;
+.theme-novus-dark ::-webkit-scrollbar-thumb, .theme-novus-dark .button.is-primary, div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div > div:nth-child(3) > div > button, .theme-novus-dark ::-webkit-scrollbar-thumb, .theme-novus-dark .button.is-primary:hover, div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div > div:nth-child(3) > div > button:hover{
+    background-color: var(--accent);
+    border-color: var(--accent);
 }
-.theme-novus-dark ::-webkit-scrollbar-thumb, .theme-novus-dark .button.is-primary:hover, div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div > div:nth-child(3) > div > button:hover{
-    background-color: #bb86fc;
-    border-color: #bb86fc;
+.tabbed__tab-buttons > div > div  > div, .theme-novus--dark-nav .scene-space__navigation-instance, .theme-novus-dark .scene-space__navigation-instance, .theme-novus--dark-nav .scene-space-tab-button--expandable .scene-space-tab-button__title, .theme-novus-dark .scene-space-tab-button--expandable .scene-space-tab-button__title{
+    color: var(--accent)!important;
+}
+.tabbed__tab-buttons > div > div  > div > span:empty{
+    background-color: var(--accent)!important;
 }
 .markdown{
     text-rendering: optimizeLegibility;
@@ -106,4 +114,11 @@ div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > d
 }
 .view:nth-child(3) > div > div > div > div > div > div > div:nth-child(1) > button{
     border:none!important;
+}
+.theme-novus-dark .popup-emoji{
+    background: transparent;
+}
+.popup-emoji__quick{
+    border-bottom-left-radius: 20px!important;
+    border-bottom-right-radius: 20px!important;
 }
