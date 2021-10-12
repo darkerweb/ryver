@@ -11,7 +11,7 @@
 *{
     --accent: #eb6123;
 }
-.theme-novus-dark .detail, .theme-novus-dark .chat-common, .theme-novus-dark .chat-common .chat-common__last-seen-label, body:not(.is-phone).theme-novus-dark .view-header, .theme-novus-dark .chat-common .chat-common__message-container, .scene-space-tab-button:hover, div[id^="ryver_view_task"] > div > div, .post-list .scroll-container, .view > div, .view-container.pane__container, .notification-list__item-body, .notification-list__item-container, div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div, .scene-space__footer:hover, .theme-novus--dark-nav .scene-space-tab-button__presence, .theme-novus-dark .scene-space-tab-button__presence, div[id^="ryver_view_task"]>div>div>div>div, li.select-item:hover {
+.theme-novus-dark .detail, .theme-novus-dark .chat-common, .theme-novus-dark .chat-common .chat-common__last-seen-label, body:not(.is-phone).theme-novus-dark .view-header, .theme-novus-dark .chat-common .chat-common__message-container, .scene-space-tab-button:hover, div[id^="ryver_view_task"] > div > div, .post-list .scroll-container, .view > div, .view-container.pane__container, .notification-list__item-body, .notification-list__item-container, div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div, .scene-space__footer:hover, .theme-novus--dark-nav .scene-space-tab-button__presence, .theme-novus-dark .scene-space-tab-button__presence, div[id^="ryver_view_task"]>div>div>div>div, li.select-item:hover, .view-body>ul>.row:hover {
     background-color:  #121212!important;
 }
 /*black*/
@@ -20,7 +20,7 @@
 }
 
 /*black but important*/
-body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag:after, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag:hover, .view:nth-child(3) > div > div > div > div > div > div > div:nth-child(1) > button > span, .is-loading, .view-body, .popup-emoji__quick, .theme-novus-dark .popup-emoji__scroller, li.select-item, .select-field.sidebar-select, .tabbed__sidebar-container > div, .view-body>div, .select-field > div > div, .view.files-list > div > div:nth-child(2){
+body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag:after, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag:hover, .view:nth-child(3) > div > div > div > div > div > div > div:nth-child(1) > button > span, .is-loading, .view-body, .popup-emoji__quick, .theme-novus-dark .popup-emoji__scroller, li.select-item, .select-field.sidebar-select, .tabbed__sidebar-container > div, .view-body>div, .select-field > div > div, .view.files-list > div > div:nth-child(2), .view-body>ul>.row, .full-scroller.view-task-dialog>div>div>div>div>div, .full-scroller.view-task-dialog>div>div>div, .full-scroller.view-task-dialog>div>div>div>div>div>div>div:nth-child(1)>div:nth-child(2){
     background-color: black!important;
 }
 .chat-message__item-action-container, .chat-message__item-retry-container{
