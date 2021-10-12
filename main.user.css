@@ -43,7 +43,7 @@ body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag, body:not(.is-phone).t
     text-rendering: optimizeLegibility;
     color: white;
 }
-.theme-novus-dark ::-webkit-scrollbar-thumb, .theme-novus-dark .button.is-primary, div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div > div:nth-child(3) > div > button, .theme-novus-dark ::-webkit-scrollbar-thumb, .theme-novus-dark .button.is-primary:hover, div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div > div:nth-child(3) > div > button:hover, .theme-novus--dark-nav .scene-space-tab-button:hover .scene-space-tab-button__presence{
+.theme-novus-dark ::-webkit-scrollbar-thumb, .theme-novus-dark .button.is-primary, div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div > div:nth-child(3) > div > button, .theme-novus-dark ::-webkit-scrollbar-thumb, .theme-novus-dark .button.is-primary:hover, div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div > div:nth-child(3) > div > button:hover, .theme-novus--dark-nav .scene-space-tab-button:hover .scene-space-tab-button__presence, .scene-space__below-fold{
     background-color: var(--accent);
     border-color: var(--accent);
 }
@@ -55,6 +55,9 @@ body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag, body:not(.is-phone).t
 }
 .tabbed__tab-buttons > div > div  > div > span:empty{
     background-color: var(--accent)!important;
+}
+.navigation-action-expand > div > svg {
+    fill: var(--accent)!important;
 }
 .markdown{
     text-rendering: optimizeLegibility;
@@ -126,7 +129,4 @@ div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > d
 .popup-emoji__quick{
     border-bottom-left-radius: 20px!important;
     border-bottom-right-radius: 20px!important;
-}
-.navigation-action-expand > div > svg {
-    fill: var(--accent)!important;
 }
