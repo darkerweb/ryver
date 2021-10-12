@@ -46,7 +46,7 @@ body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag, body:not(.is-phone).t
     background-color: var(--accent);
     border-color: var(--accent);
 }
-.tabbed__tab-buttons > div > div  > div, .theme-novus--dark-nav .scene-space__navigation-instance, .theme-novus-dark .scene-space__navigation-instance, .theme-novus--dark-nav .scene-space-tab-button--expandable .scene-space-tab-button__title, .theme-novus-dark .scene-space-tab-button--expandable .scene-space-tab-button__title{
+.tabbed__tab-buttons > div > div  > div, .theme-novus--dark-nav .scene-space__navigation-instance, .theme-novus-dark .scene-space__navigation-instance, .theme-novus--dark-nav .scene-space-tab-button--expandable .scene-space-tab-button__title, .theme-novus-dark .scene-space-tab-button--expandable .scene-space-tab-button__title, .view-body > div > div > div > span, span.is-link.chat-message__from-name{
     color: var(--accent)!important;
 }
 .tabbed__tab-buttons > div > div  > div > span:empty{
