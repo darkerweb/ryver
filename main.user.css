@@ -20,13 +20,16 @@
 }
 
 /*black but important*/
-body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag:after, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag:hover, .view:nth-child(3) > div > div > div > div > div > div > div:nth-child(1) > button > span, .is-loading, .view-body, .popup-emoji__quick, .theme-novus-dark .popup-emoji__scroller, li.select-item, .select-field.sidebar-select, .tabbed__sidebar-container > div, .view-body>div, .select-field > div > div, .view.files-list > div > div:nth-child(2), .view-body>ul>.row, .full-scroller.view-task-dialog>div>div>div>div>div, .full-scroller.view-task-dialog>div>div>div, .full-scroller.view-task-dialog>div>div>div>div>div>div>div:nth-child(1)>div:nth-child(2){
+body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag:after, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag:hover, .view:nth-child(3) > div > div > div > div > div > div > div:nth-child(1) > button > span, .is-loading, .view-body, .popup-emoji__quick, .theme-novus-dark .popup-emoji__scroller, li.select-item, .select-field.sidebar-select, .tabbed__sidebar-container > div, .view-body>div, .select-field > div > div, .view.files-list > div > div:nth-child(2), .view-body>ul>.row, .full-scroller.view-task-dialog>div>div>div>div>div, .full-scroller.view-task-dialog>div>div>div, .full-scroller.view-task-dialog>div>div>div>div>div>div>div:nth-child(1)>div:nth-child(2), .popup-emoji__search-container > div > input, .popup-emoji__tab .material-icons{
     background-color: black!important;
+}
+.popup-emoji__tab .material-icons {
+    color: black;
 }
 .chat-message__item-action-container, .chat-message__item-retry-container{
     border:none;
 }
-.popup.emoji__popup.is-active{
+.popup.emoji__popup.is-active, .popup-emoji__search-container > div > input{
     border-radius:20px!important;
 }
 .theme-novus-dark .chat-message .chat-message__from:hover~.chat-message__events .chat-message__item:first-of-type, .theme-novus-dark .chat-message .chat-message__item--actions-expanded, .theme-novus-dark .chat-message .chat-message__item:hover, .theme-novus-dark .entity-list__item, .post-item__container, .theme-novus-dark .post-item .post-item__comments-container, .view:nth-child(3) > div > div > div > div > div > div:nth-child(2) > div, .chat-message__item:hover{
@@ -53,7 +56,7 @@ body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag, body:not(.is-phone).t
 .tabbed__tab-buttons > div > div  > div, .theme-novus--dark-nav .scene-space__navigation-instance, .theme-novus-dark .scene-space__navigation-instance, .theme-novus--dark-nav .scene-space-tab-button--expandable .scene-space-tab-button__title, .theme-novus-dark .scene-space-tab-button--expandable .scene-space-tab-button__title, .view-body > div > div > div > span, span.is-link.chat-message__from-name{
     color: var(--accent)!important;
 }
-.tabbed__tab-buttons > div > div  > div > span:empty{
+.tabbed__tab-buttons > div > div  > div > span:empty, .popup-emoji__tabs{
     background-color: var(--accent)!important;
 }
 .navigation-action-expand > div > svg {
@@ -129,13 +132,4 @@ div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > d
 .popup-emoji__quick{
     border-bottom-left-radius: 20px!important;
     border-bottom-right-radius: 20px!important;
-}
-.chat-message__from-time {
-    color: white;
-}
-.popup-emoji__tabs {
-    background-color: #eb6123;
-}
-.material-icons {
-    color: black;
 }
