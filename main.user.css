@@ -130,3 +130,12 @@ div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > d
     border-bottom-left-radius: 20px!important;
     border-bottom-right-radius: 20px!important;
 }
+.chat-message__from-time {
+    color: white;
+}
+.popup-emoji__tabs {
+    background-color: #eb6123;
+}
+.material-icons {
+    color: black;
+}
