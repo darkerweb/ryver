@@ -9,7 +9,7 @@
 @license        MIT
 ==/UserStyle== */
 *{
-    --accent: hotpink;
+    --accent: crimson;
 }
 .theme-novus-dark .detail, .theme-novus-dark .chat-common, .theme-novus-dark .chat-common .chat-common__last-seen-label, body:not(.is-phone).theme-novus-dark .view-header, .theme-novus-dark .chat-common .chat-common__message-container, .scene-space-tab-button:hover, div[id^="ryver_view_task"] > div > div, .post-list .scroll-container, .view > div, .view-container.pane__container, .notification-list__item-body, .notification-list__item-container, div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div, .scene-space__footer:hover, .theme-novus--dark-nav .scene-space-tab-button__presence, .theme-novus-dark .scene-space-tab-button__presence, div[id^="ryver_view_task"]>div>div>div>div, li.select-item:hover, .view-body>ul>.row:hover, .preview-image-dialog__body, .preview-image-dialog__actions, .full-scroller__content > div, div[style ^= "font-size: 16px; color: rgba(176, 190, 197, 0.6); padding: 0px 24px 24px; box-sizing: border-box; overflow-y: auto; border-top: 1px solid rgb(55, 71, 79); border-bottom: 1px solid rgb(55, 71, 79);"] > div > div > div:nth-child(2), div[style = "color: rgb(176, 190, 197); height: 36px; line-height: 36px; overflow: hidden; opacity: 1; position: relative; padding: 0px 40px 0px 0px; text-overflow: ellipsis; top: 0px; white-space: nowrap;"], input.text-field__input, div.create-task__assignees, div.create-task__tasks > div:nth-child(2) > div, div[role = "combobox"] > div, div.update-task__tags > div:nth-child(2) > div{
     background-color:  #121212!important;
