@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Darker Ryver
 @namespace      github.com/darkerweb
-@version        1.5
+@version        1.2
 @description    Darker theme for Ryver
 @homepageURL    https://github.com/darkerweb/ryver
 @supportURL     https://github.com/darkerweb/ryver/issues
@@ -19,7 +19,7 @@
     background: black;
 }
 /*black but important*/
-body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag:after, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag:hover, .view:nth-child(3) > div > div > div > div > div > div > div:nth-child(1) > button > span, .is-loading, .view-body, .popup-emoji__quick, .theme-novus-dark .popup-emoji__scroller, li.select-item, .select-field.sidebar-select, .tabbed__sidebar-container > div, .view-body>div, .select-field > div > div, .view.files-list > div > div:nth-child(2), .view-body>ul>.row, .full-scroller.view-task-dialog>div>div>div>div>div, .full-scroller.view-task-dialog>div>div>div, .full-scroller.view-task-dialog>div>div>div>div>div>div>div:nth-child(1)>div:nth-child(2), .popup-emoji__search-container > div > input{
+body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag:after, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag:hover, .view:nth-child(3) > div > div > div > div > div > div > div:nth-child(1) > button > span, .is-loading, .view-body, .popup-emoji__quick, .theme-novus-dark .popup-emoji__scroller, li.select-item, .select-field.sidebar-select, .tabbed__sidebar-container > div, .view-body>div, .select-field > div > div, .view.files-list > div > div:nth-child(2), .view-body>ul>.row, .full-scroller.view-task-dialog>div>div>div>div>div, .full-scroller.view-task-dialog>div>div>div, .full-scroller.view-task-dialog>div>div>div>div>div>div>div:nth-child(1)>div:nth-child(2), .popup-emoji__search-container > div > input, div[style = "color: rgb(176, 190, 197); height: 36px; line-height: 36px; overflow: hidden; opacity: 1; position: relative; padding: 0px 40px 0px 0px; text-overflow: ellipsis; top: 0px; white-space: nowrap;"]{
     background-color: black!important;
 }
 .popup-emoji__tab .material-icons, span[style = "position: relative; opacity: 1; font-size: 14px; letter-spacing: 0px; text-transform: uppercase; font-weight: 500; margin: 0px; user-select: none; padding-left: 16px; padding-right: 16px; color: rgb(176, 190, 197);"] {
